@@ -32,11 +32,8 @@ Kontribusi dan masukan sangat diharapkan! Jika Anda memiliki saran atau ingin be
 ## 🔑 Login Pengguna
 - **Login dengan Akun Google**: Pengguna dapat masuk menggunakan akun Google mereka untuk mengakses aplikasi.
 
-## 🔗 Live Demo (jika ada)
-[Tautan ke Aplikasi]  
-
-## 📜 Lisensi
-MIT
+## 🔗 Live Demo 
+https://polres.vercel.app/login
 
 
 ## Getting Started
