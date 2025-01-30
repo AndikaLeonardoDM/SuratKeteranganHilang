@@ -1,3 +1,24 @@
+Pengembangan Aplikasi Surat Keterangan Kehilangan di Polres Payakumbuh
+🚀 Web App Berbasis Next.js & Firebase
+
+Aplikasi ini dirancang untuk mempermudah proses pembuatan Surat Keterangan Kehilangan di Polres Payakumbuh. Dengan teknologi Next.js sebagai frontend dan Firebase sebagai backend, aplikasi ini memungkinkan masyarakat untuk mengajukan permohonan secara online dengan mudah, cepat, dan efisien.
+
+✨ Fitur Utama
+✅ Pendaftaran & Login – Autentikasi menggunakan Firebase Authentication
+✅ Pengajuan Online – Formulir digital untuk pembuatan surat kehilangan
+✅ Verifikasi & Persetujuan – Pihak kepolisian dapat meninjau dan menyetujui pengajuan
+✅ Download & Cetak Surat – Pengguna dapat mengunduh surat yang telah disetujui
+✅ Notifikasi Real-Time – Update status pengajuan melalui Firebase
+
+🛠️ Teknologi yang Digunakan
+Next.js – Framework React untuk tampilan yang cepat & dinamis
+Firebase Authentication – Sistem login yang aman
+Firestore Database – Penyimpanan data berbasis cloud
+Firebase Storage – Manajemen file untuk dokumen surat
+Tailwind CSS – UI modern dan responsif
+💡 Proyek ini bertujuan untuk mendigitalisasi layanan publik, mempercepat proses administrasi, dan meningkatkan transparansi dalam pengurusan surat kehilangan di Polres Payakumbuh.
+
+📌 Kontribusi & Masukan sangat diharapkan! Jika Anda memiliki saran atau ingin berkontribusi, jangan ragu untuk membuat pull request atau membuka issue.
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
