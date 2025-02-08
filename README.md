@@ -1,4 +1,5 @@
 # Pengembangan Aplikasi Surat Keterangan Kehilangan di Polres Payakumbuh
+
 🚀 **Web App Berbasis Next.js & Firebase**
 
 Aplikasi ini dirancang untuk mempermudah proses pembuatan **Surat Keterangan Kehilangan** di **Polres Payakumbuh**. Dengan teknologi **Next.js** sebagai frontend dan **Firebase** sebagai backend, aplikasi ini memungkinkan masyarakat untuk mengajukan permohonan secara online dengan mudah, cepat, dan efisien.
@@ -33,29 +34,58 @@ Kontribusi dan masukan sangat diharapkan! Jika Anda memiliki saran atau ingin be
 - **Login dengan Akun Google**: Pengguna dapat masuk menggunakan akun Google mereka untuk mengakses aplikasi.
 
 ## 🔗 Live Demo 
-https://polres.vercel.app/login
+[Klik di sini untuk melihat demo](https://polres.vercel.app/login)
+
+---
 
 ## 🛠 Cara Instalasi
 
-- **1. Clone repositori ini**
+### 1️⃣ Clone Repositori
+Jalankan perintah berikut di terminal:
+```bash
 git clone https://github.com/username/polres-app.git
 cd polres-app
+```
 
-- **2.Install dependencies**
+### 2️⃣ Install Dependencies
+Jalankan salah satu perintah berikut untuk menginstal dependensi yang dibutuhkan:
+```bash
 npm install
-# or
+# atau
 yarn install
+```
 
-- **3.Tambahkan konfigurasi Firebase**
-- Buat proyek baru di Firebase Console
-- Unduh file konfigurasi firebaseConfig.js dan tempatkan di folder config/
+### 3️⃣ Tambahkan Konfigurasi Firebase
+1. **Buat proyek baru** di [Firebase Console](https://console.firebase.google.com/).
+2. **Aktifkan Authentication** dan pilih metode login dengan **Email/Password** dan **Google**.
+3. **Buat Firestore Database** dan atur aturan keamanan yang sesuai.
+4. **Konfigurasi Firebase Storage** untuk menyimpan dokumen surat.
+5. **Unduh file konfigurasi Firebase** (`firebaseConfig.js`), lalu simpan di folder `/config/` dalam proyek.
 
-- **4.Jalankan server pengembangan**
+Contoh isi file `firebaseConfig.js`:
+```javascript
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+
+export default firebaseConfig;
+```
+
+### 4️⃣ Jalankan Server Pengembangan
+Gunakan salah satu perintah berikut untuk menjalankan aplikasi:
+```bash
 npm run dev
-# or
+# atau
 yarn dev
+```
 
-- **5.Buka browser dan akses aplikasi di http://localhost:3000*
+### 5️⃣ Akses Aplikasi
+Buka browser dan kunjungi:  
+🔗 **http://localhost:3000**  
 
-
-
+Sekarang aplikasi siap digunakan! 🚀
